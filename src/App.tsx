@@ -1,0 +1,16 @@
+import { useState } from "react";
+import {Button} from "../src/components/ui/button";
+import "./index.css";
+
+function App() {
+
+  return (
+    <>
+        <div className="flex min-h-svh flex-col items-center justify-center">
+      <Button>Click me</Button>
+    </div>
+    </>
+  );
+}
+
+export default App;
